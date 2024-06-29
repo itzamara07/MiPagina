@@ -1,0 +1,88 @@
+@import url("index.html");
+@import url("Nosotros.html");
+@import url("productos.html");
+@import url("Contacto.css");
+
+body { 
+    background-color : #47a2ab;
+
+}
+
+.Encabezado {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 250%;
+    text-align: center; 
+    line-height: .5em;
+
+}
+
+.botones{
+  position: static;
+  margin-top: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+scroll-container {
+    display: flex;
+    width: 100px;
+    overflow-x: hidden;
+    scroll-snap-align: center;
+  }
+  
+  .Inf{
+    position: static;
+    font-family: "Latin Modern Roman";
+    color: rgb(61, 61, 61);
+    font-size: 180%;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+  }
+
+  .img{
+    margin-left: 5%;
+    margin-right: 5%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .shopping-cart { 
+    box-shadow: 0px 0px 5px 10px rgba(254, 254, 254, 0.75);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px ;
+  }
+  
+  .primary-button {
+    background-color: rgb(112, 112, 112);
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 7%;
+    cursor: pointer;
+    font-size: medium;
+    height: 40px;
+    margin: 10px;
+  }
+
+.product-detail {
+  color: rgb(34, 34, 34);
+  margin: 0x; 
+  margin-top: 0%;
+  font-size: 25px;
+}
+
+.title {
+  align-items: center;
+  margin-left: 630px;
+  font-size: 50px;
+
+}
+
+
+
+
+  
